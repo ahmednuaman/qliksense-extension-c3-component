@@ -1,6 +1,6 @@
 {
   "name": "qliksense-extension-c3-component",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A C3JS component for QlikSense extensions",
   "main": "index.js",
   "scripts": {
