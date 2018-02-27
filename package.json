@@ -1,0 +1,33 @@
+{
+  "name": "qliksense-extension-c3-component",
+  "version": "1.0.0",
+  "description": "A C3JS component for QlikSense extensions",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard --fix --verbose | snazzy && sass-lint --ignore 'node_modules/**/*.scss' -v -q"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmednuaman/qliksense-extension-c3-component.git"
+  },
+  "keywords": [
+    "qliksense",
+    "angular",
+    "c3js"
+  ],
+  "author": "Ahmed Nuaman (ahmed@ahmednuaman.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ahmednuaman/qliksense-extension-c3-component/issues"
+  },
+  "homepage": "https://github.com/ahmednuaman/qliksense-extension-c3-component#readme",
+  "dependencies": {
+    "c3": "^0.4.21",
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "sass-lint": "^1.12.1",
+    "snazzy": "^7.0.0",
+    "standard": "^11.0.0"
+  }
+}
